@@ -19,7 +19,6 @@ This is a simple web-based image processing application built using **Flask** as
 ## Technologies Used
 
 - **Flask** (Python) for backend API and image processing.
-- **Bootstrap** (HTML5, CSS) for responsive and modern frontend design.
 - **JavaScript** for client-side interaction with the server and image rendering.
 - **Pillow (PIL)** for image processing operations in the backend.
   
@@ -77,8 +76,7 @@ http://127.0.0.1:5000
 ```
 .
 ├── app.py              # Flask backend for image processing
-├── templates
-│   └── index.html      # Frontend HTML file using Bootstrap
+├── index.html          # Frontend HTML file
 ├── asset
 │   ├── css
 │   │   └── style.css   # Optional custom CSS for styling
