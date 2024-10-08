@@ -13,6 +13,7 @@ This is a simple web-based image processing application built using **Flask** as
   - Apply a simple **Threshold**
   - Adjust **Brightness**
   - **Flip** the image horizontally
+  - **Reset**
 - **Save Processed Image**: Users can download the processed image back to their device.
 
 ## Technologies Used
@@ -73,7 +74,7 @@ http://127.0.0.1:5000
 
 ## File Structure
 
-```bash
+```
 .
 ├── app.py              # Flask backend for image processing
 ├── templates
