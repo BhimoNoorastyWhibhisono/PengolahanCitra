@@ -85,18 +85,3 @@ http://127.0.0.1:5000
 │       └── app.js      # JavaScript for handling image operations and UI interaction
 └── README.md           # This README file
 
-
-## Customization
-
-You can customize the app by adding more image operations or modifying the user interface. Here are a few ideas:
-
-- Add additional operations like contrast adjustment, image resizing, or image cropping.
-- Improve the UI by adding more animations or a progress bar while images are being processed.
-
-## Contributing
-
-Feel free to fork this repository and submit pull requests. Any feedback or suggestions are welcome!
-
-## License
-
-This project is licensed under the MIT License. 
