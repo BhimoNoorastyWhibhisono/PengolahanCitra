@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pengolahan Gambar Sederhana Aray Gala</title>
+    <link rel="stylesheet" href="./asset/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo-container">
+          <img src="./image/Araygala.png" alt="Logo" class="logo" />
+          <span class="site-title">Aray Gala</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>Pengolahan Gambar Sederhana</h1>
+      <input type="file" id="imageLoader" name="imageLoader" />
+      <canvas id="imageCanvas"></canvas>
+
+      <div class="options">
+        <button onclick="applyOperation('grayscale')">Grayscale</button>
+        <button onclick="applyOperation('rotate')">Rotate 90°</button>
+        <button onclick="applyOperation('threshold')">Threshold</button>
+        <button onclick="applyOperation('brightness')">Brightness</button>
+        <button onclick="applyOperation('flip')">Flip</button>
+        <button id="resetImage">Reset</button>
+        <button id="saveImage">Save Processed Image</button>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Aray Gala. All rights reserved.</p>
+    </footer>
+    <script src="./asset/js/app.js"></script>
+  </body>
+</html>
