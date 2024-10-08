@@ -84,5 +84,7 @@ http://127.0.0.1:5000
 │   │   └── style.css   # Optional custom CSS for styling
 │   └── js
 │       └── app.js      # JavaScript for handling image operations and UI interaction
+├── image
+│   └── Araygala.PNG    # Logo
 └── README.md           # This README file
 
